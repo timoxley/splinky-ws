@@ -1,0 +1,28 @@
+{
+  "name": "splinky-ws",
+  "version": "0.0.0",
+  "description": "WebSockets for Splinky",
+  "main": "splinky-ws.js",
+  "authors": [
+    "Rod Vagg @rvagg <rod@vagg.org> (https://github.com/rvagg)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rvagg/splinky-ws.git"
+  },
+  "keywords": [ "splinky", "websockets" ],
+  "license": "MIT",
+  "devDependencies": {
+    "splinky": "~0.2.0",
+    "bustermove": "~0.3.2",
+    "engine.io-client": "~0.7.12",
+    "browserify": "~2.36.0",
+    "after": "~0.8.1"
+  },
+  "scripts": {
+    "test": "node test/tests.js"
+  },
+  "dependencies": {
+    "engine.io": "~0.7.12"
+  }
+}
