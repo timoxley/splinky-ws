@@ -13,7 +13,7 @@
   "keywords": [ "splinky", "websockets" ],
   "license": "MIT",
   "devDependencies": {
-    "splinky": "~0.2.0",
+    "splinky": "~0.3.0",
     "bustermove": "~0.3.2",
     "engine.io-client": "~0.7.12",
     "browserify": "~2.36.0",
