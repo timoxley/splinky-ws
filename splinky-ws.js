@@ -41,17 +41,16 @@ function initWs (httpServer, key) {
 
 function startup (httpServer) {
   var wsServers = this.wsServers = []
-  console.log('wsServers')
   this.splink.reg(wsServers, '_wsServers')
   this.splink.keysByCategory('ws').forEach(initWs.bind(this, httpServer))
 }
 
 function shutdown (httpServer) {
   var wsServers = this.splink.byId('_wsServers')
-  process.nextTick(function () {
-  wsServers.forEach(function (server) {
-    server.ws.close()
-    server.close()
+  process.nextTick(function() {
+    wsServers.forEach(function (server) {
+      server.ws.close()
+      server.close()
+    })
   })
-}, 1000)
 }
