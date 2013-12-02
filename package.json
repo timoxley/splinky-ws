@@ -1,6 +1,6 @@
 {
   "name": "splinky-ws",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "WebSockets for Splinky",
   "main": "splinky-ws.js",
   "authors": [
@@ -10,7 +10,10 @@
     "type": "git",
     "url": "https://github.com/rvagg/splinky-ws.git"
   },
-  "keywords": [ "splinky", "websockets" ],
+  "keywords": [
+    "splinky",
+    "websockets"
+  ],
   "license": "MIT",
   "devDependencies": {
     "splinky": "~0.3.0",
